@@ -1,12 +1,19 @@
-###　タイトル：2022年授業形態ウェブアンケート
-###　企画の動機：コロナウイルスによる非対面授業の中で、対面授業の需要を調査すること
+### タイトル：2022年授業形態ウェブアンケート
+### 企画動機：コロナウイルスによる非対面授業の中で、対面授業の需要を調査するため
 
-###　使用言語
-##　マークアップ言語：HTML、CSS
-##　プログラミング言語：Python
-##　オープンソースソフトウェア：Git、Docker、AWS EC2、Github Action
+### 使用言語：
+#### プログラミング言語：Python（Flask web framework）
+#### マークアップ言語：HTML、CSS
+#### オープンソースソフトウェア：Git、Docker、Nginx、AWS EC2、Github Action
 
-### ScreenShot
+### 配布方法：
+#### 1）Github Actionのワークフローにymlファイルを作成します。
+#### 2) Docker imageをビルドし、AWS EC2内でNginxウェブサーバーが設置されているDocker containerを実行します。
+#### 3）持続的統合（CI）、自動配布（CD）を具現しました。
+
+### URL：ドメイン登録はまだでございます。
+
+### スクリーンショット：
 ## 1. Initial page (Main)
 ![image](https://user-images.githubusercontent.com/91311610/167164526-69a7b767-00eb-4ef1-a7e9-d3c430daa615.png)
 
@@ -20,10 +27,10 @@
 ![image](https://user-images.githubusercontent.com/91311610/167164684-eefa2d17-98ab-4c11-86ef-137b2944702d.png)
 
 ## 4. Application_form page
-![image](https://user-images.githubusercontent.com/91311610/167165419-2885d7bf-127e-499f-b3bc-a72a2199726a.png)
+![image](https://user-images.githubusercontent.com/91311610/167168055-deb2116b-9344-4be9-b1b5-8d183a378a00.png)
 
 ## 5. Detail page
-![image](https://user-images.githubusercontent.com/91311610/157589422-4ab64aca-2f51-49b1-9c80-5547d456a0df.png)
+![image](https://user-images.githubusercontent.com/91311610/167168111-2ec7c67c-0d0b-4959-9fa8-9eccbaad1fec.png)
 
 ## 6. Submit page
 ![image](https://user-images.githubusercontent.com/91311610/167165822-afd3f952-bdc3-44da-85af-6a8ab4e1b991.png)
