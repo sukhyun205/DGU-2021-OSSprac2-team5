@@ -1,19 +1,20 @@
-### タイトル：2022年授業形態ウェブアンケート
-### 企画動機：コロナウイルスによる非対面授業の中で、対面授業の需要を調査するため
+## タイトル：2022年授業形態ウェブアンケート
+## 企画動機：コロナウイルスによる非対面授業の中で、対面授業の需要を調査するため
 
-### 使用言語：
+## 使用言語：
 #### プログラミング言語：Python（Flask web framework）
 #### マークアップ言語：HTML、CSS
 #### オープンソースソフトウェア：Git、Docker、Nginx、AWS EC2、Github Action
 
-### 配布方法：
-#### 1）Github Actionのワークフローにymlファイルを作成します。
-#### 2) Docker imageをビルドし、AWS EC2内でNginxウェブサーバーが設置されているDocker containerを実行します。
-#### 3）持続的統合（CI）、自動配布（CD）を具現しました。
+## 配布方法：
+#### 1）Github Actionのワークフローにymlファイル作成
+#### 2) Docker imageをビルドし、AWS EC2内でNginxウェブサーバーが設置されているDocker container実行
+#### 3）持続的統合（CI）、自動配布（CD）具現
 
 ### URL：ドメイン登録はまだでございます。
 
-### スクリーンショット：
+## スクリーンショット：
+
 ## 1. Initial page (Main)
 ![image](https://user-images.githubusercontent.com/91311610/167164526-69a7b767-00eb-4ef1-a7e9-d3c430daa615.png)
 
