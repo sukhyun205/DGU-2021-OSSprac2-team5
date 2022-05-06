@@ -7,18 +7,18 @@
 <body>
 
   <section>
-    <hr width="239" align="left" color="black" />
-    <h1>OSSP 계정 회원가입</h1>
-    <hr width="239" align="left" color="black" />
+    <hr align="center" style="border:groove 4px blue; width:50%" />
+    <h1>会員登録</h1>
+    <hr align="center" style="border:groove 4px blue; width:50%" />
   </section>
 
   <section>
     <form name="login" action="index.html" method="post">
 
-      이름<br>  <input type="text" name="user_name" placeholder="이름 입력" value=""> <br>
-      생년월일<br> 
+      名前<br>  <input type="text" name="user_name" placeholder="名前" value=""> <br>
+      生年月日<br> 
       <select name="year">
-        <option value="">-- 선택 --</option>
+        <option value="">-- option --</option>
         <option value="1995">1995</option>
         <option value="1996">1996</option>
         <option value="1997">1997</option>
@@ -27,7 +27,7 @@
         <option value="2000">2000</option>
       </select>
       <select name="month">
-        <option value="">-- 선택 --</option>
+        <option value="">-- option --</option>
         <option value="1">1</option>
         <option value="2">2</option>
         <option value="3">3</option>
@@ -42,7 +42,7 @@
         <option value="12">12</option>
       </select>
       <select name="day">
-        <option value="">-- 선택 --</option>
+        <option value="">-- option --</option>
         <option value="1">1</option>
         <option value="2">2</option>
         <option value="3">3</option>
@@ -75,14 +75,15 @@
         <option value="30">30</option>
         <option value="31">31</option>
       </select><br>
-      성별<br>
-      <label for="man">남자</label>
+      性別<br>
+      <label for="man">男性</label>
       <input type="radio" name="gender" value="m" id="man">
-      <label for="woman">여자</label>
+      <label for="woman">女性</label>
       <input type="radio" name="gender" value="m" id="woman"> <br><br>
-      학부<br> 
+
+      学部<br> 
       <select name="year">
-        <option value="">-- 선택 --</option>
+        <option value="">-- option --</option>
         <option value="연계전공">연계전공</option>
         <option value="문과대학">문과대학</option>
         <option value="이과대학">이과대학</option>
@@ -94,25 +95,26 @@
       </select><br><br> 
 
       ID<br>
-      <input type="text" name="user_ID" placeholder="ID 입력" >
+      <input type="text" name="user_ID" placeholder="ID" >
       <br>
       PASSWORD<br>
       <input type="password" name="user_PW1" value="123456"><br>
-      PASSWORD 재확인<br>
+      PASSWORD CHECK<br>
       <input type="password" name="user_PW2" value="123456">
       <br><br>
 
-      이메일<br><input type="email" name="user_email" placeholder="email@gmail.com"><br>
-      휴대전화<br>
+      EMAIL<br><input type="email" name="user_email" placeholder="email@gmail.com"><br>
+      Phone number<br>
       <input type="text" name="user_phone" placeholder="010-****-****"><br>
-      이메일 문자 수신여부<br>
-      <label for="man">수락</label>
-      <input type="radio" name="gender" value="m" id="man">
-      <label for="woman">거부</label>
-      <input type="radio" name="gender" value="m" id="woman"> <br>
+      for email<br>
+      <label for="email">yes</label>
+      <input type="radio" name="email" value="e" id="e">
+      <label for="woman">no</label>
+      <input type="radio" name="email" value="e" id="e"> <br>
 
       <p><input type="button" value="SUBMIT" onClick="history.go(-1)">
-      <hr width="168" align="left" color="black" />
+      <hr align="center" style="border:groove 4px blue; width:50%" />
+        
 
     </form>
   </section>
@@ -120,3 +122,10 @@
 
 </body>
 </html>
+
+<style>
+  html {
+    text-align: center;
+  }
+
+</style>

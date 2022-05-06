@@ -11,7 +11,7 @@ def login():
    error = None
    if request.method == 'POST':
       if request.form['username'] != 'ossp' or request.form['password'] != 'ossp1234': #error 변수에 'Error 메시지 내용'을 대입
-         error = '입력오류! 다시 입력해주세요.'
+         error = '入力エラー！もう一度確認してください。'
       else:
          return render_template('application_form.html')
 
