@@ -35,4 +35,4 @@
 
 ## 6. Submit page
 ![image](https://user-images.githubusercontent.com/91311610/167165822-afd3f952-bdc3-44da-85af-6a8ab4e1b991.png)
-
+訂正:アンケート調査を完了しました。
