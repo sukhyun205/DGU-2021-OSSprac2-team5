@@ -9,9 +9,9 @@
 ## 配布方法：
 #### 1）Github Actionのワークフローにymlファイル作成
 #### 2) Docker imageをビルドし、AWS EC2内でNginxウェブサーバーが設置されているDocker container実行
-#### 3）持続的統合（CI）、自動配布（CD）具現
+#### 3）main branchにpushするたびに、持続統合（CI）、自動配布（CD）具現
 
-### URL：ドメイン登録はまだでございます。
+### URL：ドメインはまだでございます。
 
 ## スクリーンショット：
 
